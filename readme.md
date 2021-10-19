@@ -14,7 +14,3 @@ Tədris müddətində hədəflədiyim layihə şablonları: [Portfolio Project](
 </li>
 </ul>
 
-## Tədris müddətində gördüyüm işlər
-
-
-## Tədris müddətində yazdığım məqalələr
