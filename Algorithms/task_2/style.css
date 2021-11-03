@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-radius: 10px;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    background: aqua;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    padding: 10px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+body:hover button{
+    background: red;
+    color: aqua;
+}
+.container{
+    border: 1px solid lightgrey;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+span{
+    color: white;
+    font-size: 25px;
+    padding-left: 15px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    background: green;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.first:hover i{
+    color: #27ae60;
+}
+.first i{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease;
+
+}
+.middle{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.middle i{
+    font-size: 80px;
+    text-align: center;
+    color: green;
+}
+.middle p{
+    font-size: 20px;
+    text-align: center;
+}
+.last{
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid lightgrey;
+}
+.last a{
+    margin: 13px 25px;
+}
+.last a button{
+    border: 2px solid #27ae60;
+    border-radius: 3px;
+    font-size: 20px;
+    background: white;
+    color: #27ae60;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: all .3s ease;
+    position: relative;
+}
+.last a:hover button{
+    background: #27ae60;
+    color: white;
+}
+
