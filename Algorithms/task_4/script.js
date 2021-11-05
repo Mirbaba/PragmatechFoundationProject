@@ -1,6 +1,7 @@
 
 let increment = document.getElementById("increase");
 let decrement = document.getElementById("decrease");
+let clear = document.getElementById("reset");
 
 let show = document.getElementById("show");
 let startPoint = 0;
@@ -16,7 +17,9 @@ decrement.addEventListener('click', function(){
     show.innerHTML = startPoint;  
 })
 
-reset.addEventListener('click', function(){
+clear.addEventListener('click', function(){
     startPoint += 0;
     show.innerHTML = zero;  
 })
+
+
