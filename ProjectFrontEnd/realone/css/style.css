@@ -1,4 +1,7 @@
 /* Navbar section start */
+html{
+    scroll-behavior: smooth;
+}
 #navbar{
     padding: 34px 0px;
     background: transparent;
